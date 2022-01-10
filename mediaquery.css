@@ -1,0 +1,442 @@
+@media only screen and (max-width: 1130px){
+.blog_content h2{
+		font-size: 95%;
+	}
+.blog_content p{
+	font-size: 80%;
+	line-height: 120%;
+	margin-top: 10px;
+}
+}
+@media only screen and (max-width: 980px){
+.shop_s2_left2,
+.shop_s2_rigth2{
+	padding: 20px 0px;
+}
+.shop_s2_left2 h2,
+.shop_s2_rigth2 h2{	
+	line-height: 120%;
+}
+.shop_s2_left2 p,
+.shop_s2_rigth2 p{
+	margin: 5px 0px;
+}
+}
+@media only screen and (max-width: 960px){
+html,
+body{
+	font-size: 18px;
+}	
+nav ul li{
+	margin-right: 40px;
+}
+nav ul li:last-child{
+	margin-right: 40px;
+}
+.product_container{
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, minmax(0, 350px));
+}
+.p4{
+	grid-column: 1/2;
+	grid-row: 3/4;
+}
+
+.p8{
+	grid-column: 2/3;
+	grid-row: 3/4;
+}
+.f_container{
+	padding-top: 20px;
+}
+.f1,
+.f2{
+	width: 50%;
+	height: 220px;
+}
+.f3{
+	width: 100%;
+	height: 200px;
+	float: unset;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.f3 p{
+	margin-bottom: 20px;
+}
+.f3_mail{
+	min-width: 600px;
+	height: 50px;
+}
+.about_s2_right{
+	padding:50px;
+}
+
+}
+@media only screen and (max-width: 860px){
+.shop_s2_left,
+.shop_s2_right{
+	width: 80%;
+	height: 250px;
+	display: flex;
+	float: none;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.shop_s2_left1,
+.shop_s2_right1{
+	width: 35%;
+	height: 100%;
+}
+.shop_s2_left2,
+.shop_s2_rigth2{
+	width: 65%;
+	height: 100%;
+	padding: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.contact_form11{
+	width: 50%;
+	height: 480px;
+}
+.contact_form2{
+	padding: 10px 40px;
+}
+.contact_form2 input{
+	margin: 10px 0;
+}
+}
+@media only screen and (max-width: 760px){
+html,
+body{
+	font-size: 16px;
+}
+.white_space_m{
+	padding: 40px 0px;
+}
+.blog_link_container{
+	grid-template-columns: repeat(2, 1fr);
+	grid-auto-rows: max(400px);
+}
+.blog_link1{
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+.blog_link2{
+	grid-column: 1/2;
+	grid-row:2/3 ;
+}
+.blog_link3{
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
+.blog_link4{
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+.blog_link5{
+	grid-column: 1/2;
+	grid-row: 3/4;
+}
+.blog_link6{
+	grid-column: 2/3;
+	grid-row: 3/4;
+}
+.blog_link7{
+	grid-column: 1/2;
+	grid-row: 4/5;
+}
+.blog_link8{
+	grid-column: 2/3;
+	grid-row: 4/5;
+}
+}
+
+@media only screen and (max-width: 660px){
+.white_space_m{
+	padding: 20px 0px;
+}
+.white_space_s{
+	padding: 20px 0px;
+}
+nav img{
+	width: auto;
+	height: 40px;
+	margin-top: 10px;
+}
+.about11{
+	width: 50%;
+	margin-bottom: 20px;
+}
+.about2_container{
+	grid-template-rows: repeat(2,minmax(0,250px));
+	grid-gap: 10px;
+}
+/*.product_container{
+	grid-template-rows: repeat(3, minmax(0, 280px));
+}*/
+.deal_timer p{
+	font-size: 280%;
+}
+
+.blog11{
+	height: 350px;
+}
+.blog_bg{
+	width: 100%;
+	height: 50%;
+}
+.blog_content{
+	height: 45%;
+}
+.f3_mail{
+	min-width: 400px;
+}
+.about_s2_container{
+	display: block;
+}
+.about_s2_left{
+	width: 100%;
+	height: 400px;
+}
+.about_s2_right{
+	width: 100%;
+	height: 400px;
+	padding:40px;
+}
+}
+@media only screen and (max-width: 620px){
+nav ul{
+	display: none;
+}
+}
+@media only screen and (max-width: 520px){
+html,
+body{
+	font-size: 14px;
+}
+.f3_mail{
+	min-width: 350px;
+}
+}
+@media only screen and (max-width: 480px){
+html,
+body{
+	font-size: 16px;
+}	
+header{
+	height: 60vh;
+}
+header h1{
+	font-size: 250%;
+	top: 25%;
+	line-height: 200%;
+}
+header p{
+	top: 50%;
+}
+.btn_h{
+	top: 60%;
+}
+.about11{
+	width: 100%;
+	float: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+.about2_container{
+	grid-template-columns: repeat(1,1fr);
+	grid-template-rows: repeat(5,minmax(0,300px));
+	grid-gap: 0px;
+}
+.about2_h{
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+.about2_h img{
+	width: 100%;
+	height: 100%;
+}
+.about2a{
+	grid-column: 1/2;
+	grid-row: 2/3;
+}
+.about2b{
+	grid-column: 1/2;
+	grid-row: 3/4;
+}
+.about2c{
+	grid-column: 1/2;
+	grid-row: 4/5;
+}
+.about2d{
+	grid-column: 1/2;
+	grid-row: 5/6;
+}
+.product_container{
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(4, minmax(0,350px));
+	grid-gap: 5px;
+}
+.p1{
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+.p2{
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+.p3{
+	grid-column: 1/2;
+	grid-row: 2/3;
+}
+.p4{
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
+.p5{
+	grid-column: 1/2;
+	grid-row: 3/4;
+}
+.p6{
+	grid-column: 2/3;
+	grid-row: 3/4;
+}
+.p7{
+	grid-column: 1/2;
+	grid-row: 4/5;
+}
+.p8{
+	grid-column: 2/3;
+	grid-row: 4/5;
+}
+.deal_section{
+	height: 60vh;
+}
+.deal_inner_content{
+	width: 100%;
+	height: 100%;
+	float: none;
+	padding: 30px;
+}
+.blog_container{
+	display: block;
+	overflow: auto;
+}
+.blog11{
+	width: 50%;
+	height: 300px;
+}
+.blog1,
+.blog2,
+.blog3{
+	box-sizing: border-box;
+	float: left;
+}
+.f_container{
+	padding-top: 0px;
+/*	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;*/
+}
+.f1,
+.f2,
+.f3{
+	width: 100%;
+	height: 200px;
+	float: none;
+	padding: 0px;
+}
+.f3_mail{
+	min-width: 200px;
+	height: 40px;
+}
+.f4a,
+.f4b{
+	max-width: 100%;
+	float: none;
+}
+.shop_s2_left1,
+.shop_s2_right1{
+	width: 45%;
+	height: 100%;
+}
+.shop_s2_left2,
+.shop_s2_rigth2{
+	width: 55%;
+	height: 100%;
+}
+.blog_link_container{
+	width: 55%;
+	margin: 0 auto;
+	grid-template-columns: repeat(1, 1fr);
+	grid-auto-rows: max(330px);
+}
+.blog_link1{
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+.blog_link4{
+	grid-column: 1/2;
+	grid-row: 2/3;
+}
+.blog_link2{
+	grid-column: 1/2;
+	grid-row:3/4 ;
+}
+.blog_link3{
+	grid-column: 1/2;
+	grid-row: 4/5;
+}
+.blog_link5{
+	grid-column: 1/2;
+	grid-row: 5/6;
+}
+.blog_link6{
+	grid-column: 1/2;
+	grid-row: 6/7;
+}
+.blog_link7{
+	grid-column: 1/2;
+	grid-row: 7/8;
+}
+.blog_link8{
+	grid-column: 1/2;
+	grid-row: 8/9;
+}
+.contact_container{
+	width: 100%;
+	display: block;
+}
+.contact11{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	float: left;
+}
+.contact_form_container{
+	display: block;
+}
+.contact_form11{
+	width: 100%;
+	height: 400px;
+}
+}
+
+
+
+
+
+
